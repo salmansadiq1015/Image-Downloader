@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Downloader</title>
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Link TO Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!--------------- Image Detail Dection------------- -->
+    <div class="lightBox">
+      <div class="wrapper">
+        <header>
+          <div class="photographer">
+            <i class="fa-solid fa-camera"></i>
+            <span></span>
+          </div>
+          <div class="buttons">
+            <i class="fa-solid fa-download"></i>
+            <i class="fa fa-times closebtn" aria-hidden="true"></i>
+          </div>
+        </header>
+        <div class="preview-img">
+          <div class="images">
+            <img src="" alt="preview-img" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Search Section -->
+    <div class="search">
+      <img src="images/img4.webp" alt="" class="search-img" />
+      <div class="content">
+        <h1>Images Search <span>& Downloader</span></h1>
+        <p>Search and download any images with in a second</p>
+        <div class="search-box">
+          <i class="fa-solid fa-magnifying-glass searchbtn"></i>
+          <div></div>
+          <input type="search" placeholder="Search..." autofocus />
+        </div>
+      </div>
+      <div class="design"></div>
+      <i class="fa-solid fa-gear"></i>
+      <div class="gear">
+        <i class="fa-solid fa-gear gare1"></i>
+      </div>
+      <div class="svgWave">
+        <svg
+          id="wave"
+          style="transform: rotate(0deg); transition: 0.3s"
+          viewBox="0 0 1440 140"
+          version="1.1"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <defs>
+            <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+              <stop stop-color="rgba(243, 62, 132.893, 1)" offset="0%"></stop>
+              <stop stop-color="rgba(255, 179, 11, 1)" offset="100%"></stop>
+            </linearGradient>
+          </defs>
+          <path
+            style="transform: translate(0, 0px); opacity: 1"
+            fill="url(#sw-gradient-0)"
+            d="M0,84L10,72.3C20,61,40,37,60,35C80,33,100,51,120,53.7C140,56,160,42,180,42C200,42,220,56,240,67.7C260,79,280,89,300,79.3C320,70,340,42,360,35C380,28,400,42,420,53.7C440,65,460,75,480,77C500,79,520,75,540,72.3C560,70,580,70,600,74.7C620,79,640,89,660,98C680,107,700,117,720,112C740,107,760,89,780,74.7C800,61,820,51,840,46.7C860,42,880,42,900,39.7C920,37,940,33,960,30.3C980,28,1000,28,1020,35C1040,42,1060,56,1080,60.7C1100,65,1120,61,1140,58.3C1160,56,1180,56,1200,46.7C1220,37,1240,19,1260,14C1280,9,1300,19,1320,39.7C1340,61,1360,93,1380,102.7C1400,112,1420,98,1430,91L1440,84L1440,140L1430,140C1420,140,1400,140,1380,140C1360,140,1340,140,1320,140C1300,140,1280,140,1260,140C1240,140,1220,140,1200,140C1180,140,1160,140,1140,140C1120,140,1100,140,1080,140C1060,140,1040,140,1020,140C1000,140,980,140,960,140C940,140,920,140,900,140C880,140,860,140,840,140C820,140,800,140,780,140C760,140,740,140,720,140C700,140,680,140,660,140C640,140,620,140,600,140C580,140,560,140,540,140C520,140,500,140,480,140C460,140,440,140,420,140C400,140,380,140,360,140C340,140,320,140,300,140C280,140,260,140,240,140C220,140,200,140,180,140C160,140,140,140,120,140C100,140,80,140,60,140C40,140,20,140,10,140L0,140Z"
+          ></path>
+        </svg>
+      </div>
+    </div>
+
+    <!-- ----------------Gallery Section------------ -->
+    <section class="gallery">
+      <ul class="images" id="images">
+        <!-- <li class="card">
+          <img src="images/2.jpg" alt="" class="cardImage" />
+          <div class="details">
+            <div class="photographer">
+              <i class="fa-solid fa-camera"></i>
+              <span>img.photographer name</span>
+            </div>
+            <button class="downloadbtn">
+              <i class="fa-solid fa-download"></i>
+            </button>
+          </div>
+        </li> -->
+      </ul>
+      <button class="loadMore">Load More</button>
+    </section>
+    <div class="footer">
+      <h3>
+        Created by <span>MSS</span>&copy; |All right reserved <span>2023</span>
+      </h3>
+    </div>
+    <!-- Link TO JS -->
+    <script src="script.js"></script>
+  </body>
+</html>
